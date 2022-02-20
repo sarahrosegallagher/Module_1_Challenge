@@ -10,14 +10,14 @@ This project looks at the correlation of two different factors to the outcomes o
 ## Analysis and Challenges
  
 ### Analysis of Outcomes Based on Launch Date
-![Theater Outcomes by Launch](Resources/Theater Outcomes by Launch.png)
+![Theater Outcomes by Launch](/Resources/Theater%20Outcomes%20by%20Launch.png)
 
 For the analysis of Kickstarter outcomes based on launch date in the theater category, I utilized a pivot table in Excel. The data includes seven years of campaigns sorted by the month of their launch date. The pivot uses months for the rows while the columns consist of successful, failed, canceled, and grand total (used to check consistency). The pivot and line graph use raw numbers (rather than percentages of row, column, or grand total). This allows us to see how the volume of campaigns launched varies by month.  
  
 ### Analysis of Outcomes Based on Goals
-![Play Outcomes by Goals](Resources/Play Outcomes by Goals.png)
+![Play Outcomes by Goals](/Resources/Play%20Outcomes%20by%20Goals.png)
 
-For the analysis of Kickstarter outcomes based on goal size in the plays subcategory, I utilized functions in Excel, mainly SUM and COUNTIFS. The analysis groups the goal sizes into $5,000 chunks, ranging from less than $1,000 up to $5,000 or more. This grouping allows for more meaningful visualization compared to looking at each goal as a separate value. I created 8 columns for the 12 rows of goal groupings: raw number for successful, failed, canceled, and total as well as percentage for successful, failed, and canceled. For the visualization, I used percentage rather than raw numbers so that we can compare the success rate of campaigns without focusing on the volume of campaigns in each goal size category. 
+For the analysis of Kickstarter outcomes based on goal size in the plays subcategory, I utilized functions in Excel, mainly SUM and COUNTIFS. The analysis groups the goal sizes into $5,000 chunks, ranging from less than $1,000 up to $50,000 or more. This grouping allows for more meaningful visualization compared to looking at each goal as a separate value. I created 8 columns for the 12 rows of goal groupings: raw number for successful, failed, canceled, and total as well as percentage for successful, failed, and canceled. For the visualization, I used percentage rather than raw numbers so that we can compare the success rate of campaigns without focusing on the volume of campaigns in each goal size category. 
  
 ### Challenges and Difficulties Encountered
 One consideration for the analysis and visualization is the utility of percentages and raw numbers. For launch date, I used raw numbers to look at the fluctuation in volume across months; for goal size, I used percentage of row total (rows being each goal size group of $5,000) to focus on the relative success rate of each goal size group.   
